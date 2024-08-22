@@ -1,0 +1,85 @@
+header{
+    height: auto;
+    
+}
+body {
+    height: 100%;
+    border: 100%;
+    
+}
+:root{
+    --titulo: 'grandstander';
+}
+.cabecalho{
+    display: flex;
+    justify-content:space-around;
+    padding: 50px 0 50px 0;
+    font-family: var(--titulo);   
+}
+
+.cabecalho__links{
+    display: flex;
+    gap: 40px;
+    align-items:baseline;
+    background-color: orangered;
+    height: 20% ;
+    border-radius: 4%;
+    font-size: 30px;
+    
+
+}
+.Twitch{
+    
+    border-radius: 0px;
+    text-decoration: none;
+
+    
+}
+.meio{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 400px;
+    margin:0% ;
+}
+
+.fotomayra{
+    
+    width: 600px;
+    height: 600px;
+    border-radius: 100%;
+    
+}
+.texto{
+    width: 450px;
+    display: flex;
+    flex-direction: center;
+    font-family: var(--titulo) ;
+    font-size: 50px;
+}
+body {
+    background-image: url(back.png);
+    background-repeat: no-repeat;
+}
+.rodape{
+    background-color: rgb(255, 69, 0);
+    padding: 2% 2% 2% 2%;
+
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+}
+
+.botaoclick {
+    display: flex;
+    text-decoration:none;
+}
+
+.titulonome{
+    font-size:400%;
+}
+.iconerodape{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
