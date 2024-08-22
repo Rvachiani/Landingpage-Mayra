@@ -5,6 +5,7 @@ header{
 body {
     height: 100%;
     border: 100%;
+    margin: auto;
     
 }
 :root{
@@ -13,7 +14,7 @@ body {
 .cabecalho{
     display: flex;
     justify-content:space-around;
-    padding: 50px 0 50px 0;
+    padding: 70px 0 0 0;
     font-family: var(--titulo);   
 }
 
